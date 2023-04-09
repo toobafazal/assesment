@@ -140,27 +140,27 @@ const Home = () => {
             </Col>
           </Row>
           <Row>
-            <Col md={12}>
+            <Col md={12}  className ="my-5">
               <DemoColumn />
             </Col>
           </Row>
           <Row className="my-5">
-            <Col md={2} sm={4} xs={4} className="my-2">
+            <Col lg={2} md={4} sm={4} xs={4} className="my-2">
               <Button value="Financial health checkup" />
             </Col>
-            <Col md={2} sm={4} xs={4}  className="my-2">
+            <Col lg={2} md={4} sm={4} xs={4}  className="my-2">
               <Button value="Buying Home" />
             </Col>
-            <Col md={2} sm={4} xs={4}  className="my-2">
+            <Col lg={2} md={4} sm={4} xs={4}  className="my-2">
               <Button value="Allocate Savings" />
             </Col>
-            <Col md={2} sm={4} xs={4}  className="my-2">
+            <Col lg={2} md={4} sm={4} xs={4}  className="my-2">
               <Button value="Debt Management" />
             </Col>
-            <Col md={2} sm={4} xs={4}  className="my-2">
+            <Col lg={2} md={4} sm={4} xs={4}  className="my-2">
               <Button value="Value Spending" />
             </Col>
-            <Col md={2}  sm={4} xs={4}  className="my-2">
+            <Col lg={2} md={4} sm={4} xs={4}  className="my-2">
               <Button value="Saving for a Goal" />
             </Col>
           </Row>
